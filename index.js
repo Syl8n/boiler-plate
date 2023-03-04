@@ -7,4 +7,4 @@ mongoose.connect('mongodb+srv://dbadmin:1234@boiler-plate.fipwkvw.mongodb.net/?r
 
 app.get('/', (req, res) => res.send('Hello World'))
 
-app.listen(port, () => console.log(`Example app on http://localhost:${port}`))
+app.listen(port, () => console.log(`Listening on http://localhost:${port}`))
